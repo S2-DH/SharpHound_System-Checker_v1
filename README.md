@@ -143,6 +143,18 @@ See **[CHECKS.md](CHECKS.md)** for complete parameter reference with examples.
 
 ---
 
+
+## 🐛 **Individual Files . ZIP**
+
+**The Individual script files are included, to run a specific check - without running the whole master script
+**RUN_SystemRequirementsTest.ps1** - 
+**RUN_ServiceZipTest.ps1**
+**RUN_EventLogTest.ps1**
+**RUN_DateZipTest.ps1**
+**RUN_CrashAnalysisTest.ps1**
+**API_Authentication_Test.ps1**
+---
+
 ## 📝 **License**
 
 MIT License - see [LICENSE](LICENSE) file
