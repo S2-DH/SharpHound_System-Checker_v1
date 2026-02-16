@@ -143,16 +143,25 @@ See **[CHECKS.md](CHECKS.md)** for complete parameter reference with examples.
 
 ---
 
+## 🔧 **Individual Test Scripts**
 
-## 🐛 **Individual Files . ZIP**
+The individual script files are included to run a specific check without running the whole master script.
 
-**The Individual script files are included, to run a specific check - without running the whole master script
-**RUN_SystemRequirementsTest.ps1** 
-**RUN_ServiceZipTest.ps1**
-**RUN_EventLogTest.ps1**
-**RUN_DateZipTest.ps1**
-**RUN_CrashAnalysisTest.ps1**
-**API_Authentication_Test.ps1**
+### **Available Scripts:**
+
+- `RUN_SystemRequirementsTest.ps1`
+- `RUN_ServiceZipTest.ps1`
+- `RUN_EventLogTest.ps1`
+- `RUN_DateZipTest.ps1`
+- `RUN_CrashAnalysisTest.ps1`
+- `API_Authentication_Test.ps1`
+
+### **Usage:**
+```powershell
+# Run a specific test
+.\RUN_SystemRequirementsTest.ps1
+.\API_Authentication_Test.ps1
+```
 
 ---
 
